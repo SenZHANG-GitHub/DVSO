@@ -61,7 +61,7 @@ This project is built upon the [DSO](https://github.com/JakobEngel/dso) codebase
 You can run DVSO using the command:
 ```
 bin/dvso_dataset \
-			files=XXXXX/seq_XX/images \
+	    files=XXXXX/seq_XX/images \
             calib=XXXXX/seq_XX/camera.txt \
             disps_left=XXXXX/seq_XX/disparities_pp_left.npy \
             disps_right=XXXXX/seq_XX/disparities_pp_right.npy \
