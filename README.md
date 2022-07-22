@@ -2,7 +2,9 @@
 ------
 # DVSO: Deep Virtual Stereo Odometry 
 
-This is an unofficial C++ implementation of the **ECCV 2018** paper: **Deep virtual stereo odometry: Leveraging deep depth prediction for monocular direct sparse odometry** (DVSO). This implementation is intended for the use of the virtual stereo optimization in our **ICRA 2022** paper: **Towards Scale Consistent Monocular Visual Odometry by Learning from the Virtual World**. 
+This is an unofficial C++ implementation of the **ECCV 2018** paper: **Deep virtual stereo odometry: Leveraging deep depth prediction for monocular direct sparse odometry** (DVSO). 
+
+This implementation is intended for the use of the virtual stereo optimization in our **ICRA 2022** paper: **Towards Scale Consistent Monocular Visual Odometry by Learning from the Virtual World**. 
 
 If you find this project useful in your research, please consider citing the following papers:
 ```
