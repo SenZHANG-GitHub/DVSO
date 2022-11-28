@@ -74,11 +74,11 @@ Please refer to [DSO](https://github.com/JakobEngel/dso) for the usage of ```mod
 * ```disps_left```: path to the npy file of the disparities of the left images. The left disparities are used for depth initialization.
 * ```disps_right```: path to the npy file of the disparities of the right images. The right disparities are used for the virtual stereo optimization.
 
-# Generation of disps_left/right
+## Generation of disps_left/right
 * For monodepth that trains both the left and the right disparity networks, please check ```scripts/monodepth_dso_kitti.py``` for getting the ```disp_left/right.npy``` files
 * For monodepth2 that only trains the left disparity network, please (1) generate the left disparity ```.npy``` file using the script ```evaluate_depth.py``` in monodepth2, and then (2) check ```scripts/warp_right_disp.py``` for getting the forward warped right disparity ```.npy``` file
 
-**Commandline Options**
+## Commandline Options
 
 We follow the routine of [DSO](https://github.com/JakobEngel/dso), thus the options in [DSO](https://github.com/JakobEngel/dso) can still be used here. The options related to the virtual stereo functionality are listed below:
 
