@@ -451,7 +451,7 @@ float FullSystem::optimize(int mnumOptIts)
 				// Sen -> if isLinearized=true: this residual is to be marginalized
 				if(!r->efResidual->isLinearized) 
 				{
-					activeResiduals.push_back(r); /
+					activeResiduals.push_back(r);
 					r->resetOOB(); 
 				}
 				else
